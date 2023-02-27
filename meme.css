@@ -1,0 +1,55 @@
+
+
+   
+
+h1{
+    font-size: 2vw;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size:2vw;
+    stroke: black 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size:2vw;
+    stroke: black 5px;
+    font-family:monospace;
+  }
+  
+  
+
+  body {
+    background: linear-gradient(-45deg,orange,red,yellow,pink);
+    background-size: 400% 400%;
+    animation: gradient 13s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
